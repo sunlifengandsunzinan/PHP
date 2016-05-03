@@ -1,0 +1,335 @@
+[ 2016-04-29T10:33:22+08:00 ] ::1 /index.php?m=Admin&c=Admin&a=Login
+ERR: 无法加载控制器:Admin
+
+[ 2016-04-29T10:33:31+08:00 ] ::1 /index.php?m=Admin&c=Admin&a=Login
+ERR: 无法加载控制器:Admin
+
+[ 2016-04-29T10:34:07+08:00 ] ::1 /index.php?m=Admin&c=Login&a=index
+ERR: 非法操作:index
+
+[ 2016-04-29T10:36:14+08:00 ] ::1 /Admin/Login/code?code_len=4&font_size=14&width=100&height=28&code=
+ERR: 非法操作:code
+
+[ 2016-04-29T10:36:31+08:00 ] ::1 /Admin/Login/code?code_len=4&font_size=14&width=100&height=28&code=
+ERR: 非法操作:code
+
+[ 2016-04-29T10:36:53+08:00 ] ::1 /Admin/Login/code?code_len=4&font_size=14&width=100&height=28&code=
+ERR: 非法操作:code
+
+[ 2016-04-29T11:16:21+08:00 ] ::1 /Admin/Login/login.html
+ERR: 非法操作:login
+
+[ 2016-04-29T11:16:47+08:00 ] ::1 /Admin/Login/login.html
+ERR: 非法操作:login
+
+[ 2016-04-29T11:17:17+08:00 ] ::1 /Admin/code?code_len=4&font_size=14&width=100&height=28&code=
+ERR: 无法加载控制器:Code
+
+[ 2016-04-29T11:18:54+08:00 ] ::1 /Admin/Login
+ERR: 非法操作:index
+
+[ 2016-04-29T11:24:27+08:00 ] ::1 /Admin/Admin/Index.html
+ERR: 无法加载控制器:Admin
+
+[ 2016-04-29T11:28:26+08:00 ] ::1 /Admin/Login/Index.html
+ERR: 非法操作:Index
+
+[ 2016-04-29T13:11:14+08:00 ] ::1 /Admin/demo.html
+ERR: 无法加载控制器:Demo
+
+[ 2016-04-29T13:11:14+08:00 ] ::1 /Admin/demo.html
+ERR: 无法加载控制器:Demo
+
+[ 2016-04-29T13:20:49+08:00 ] ::1 /Admin/Login/login
+ERR: Think\Model:check_verify方法不存在！
+
+[ 2016-04-29T13:22:50+08:00 ] ::1 /Admin/Indesx.html
+ERR: 无法加载控制器:Indesx
+
+[ 2016-04-29T14:20:05+08:00 ] ::1 /Admin/login
+ERR: 非法操作:index
+
+[ 2016-04-29T14:47:29+08:00 ] ::1 /Admin/Index/login
+ERR: 非法操作:login
+
+[ 2016-04-29T15:08:48+08:00 ] ::1 /Admin/Index.html
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2016-04-29T16:51:58+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-04-29T16:52:00+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2016-04-29T16:52:00+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-04-29T16:52:00+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-04-29T16:52:00+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-04-29T16:52:00+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-04-29T16:52:51+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-04-29T16:52:52+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-04-29T16:52:52+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-04-29T16:52:52+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2016-04-29T16:52:52+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-04-29T16:52:52+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2016-04-29T16:52:52+08:00 ] ::1 /Admin/Login/%3C/Admin/Login/login.html%3E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-04-29T16:53:22+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0054s ]
+
+[ 2016-04-29T16:54:41+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0071s ]
+
+[ 2016-04-29T16:58:55+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+
+[ 2016-04-29T17:03:35+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0359s ]
+
+[ 2016-04-29T17:04:01+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0058s ]
+
+[ 2016-04-29T17:06:06+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0118s ]
+
+[ 2016-04-29T17:06:25+08:00 ] ::1 /index.php?m=Admin&c=Login&a=login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0144s ]
+
+[ 2016-04-29T17:10:28+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0127s ]
+
+[ 2016-04-29T17:11:23+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0245s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'bd26a3e2dd91ad8502e12fe152c1019f' LIMIT 1   [ RunTime:0.0973s ]
+
+[ 2016-04-29T17:12:31+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'aa11' LIMIT 1   [ RunTime:0.0048s ]
+
+[ 2016-04-29T17:12:58+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'aa11' LIMIT 1   [ RunTime:0.0189s ]
+
+[ 2016-04-29T17:13:10+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'SLF' LIMIT 1   [ RunTime:0.0067s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'SLF' AND `password` = '4297f44b13955235245b2497399d7a93' LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2016-04-29T17:13:24+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'SLF' LIMIT 1   [ RunTime:0.0142s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'SLF' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0046s ]
+
+[ 2016-04-29T17:13:25+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0054s ]
+
+[ 2016-04-29T17:13:42+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'SLF' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'SLF' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0043s ]
+
+[ 2016-04-29T17:21:25+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0033s ]
+
+[ 2016-04-29T17:23:16+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0049s ]
+
+[ 2016-04-29T17:24:14+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0047s ]
+
+[ 2016-04-29T17:25:15+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0212s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0203s ]
+
+[ 2016-04-29T17:26:26+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'slf' LIMIT 1   [ RunTime:0.0074s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'slf' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0071s ]
+

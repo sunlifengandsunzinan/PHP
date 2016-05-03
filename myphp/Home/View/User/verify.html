@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="__PUBLIC__/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+    var changeCode = function(){
+        var that = document.getElementById('code_img');
+        that.src = that.src + '&' + Math.random();
+    }
+    </script>
+<body>
+<div class="input">
+    <label for="code">验证码:</label>
+    <input type="text" name="code" id="code" size="4" />
+    <span style="margin-left:10px"><img id="code_img" align="top" onclick="changeCode()" src="code?code_len=4&font_size=14&width=100&height=28&code="+time() title="点击切换验证码"></span>
+</div>
+</body>
+</html>
