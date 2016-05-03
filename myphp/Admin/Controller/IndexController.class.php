@@ -30,8 +30,10 @@ class IndexController extends AuthController {
         $password =md5(I('post.password'));
         $userInfo = D('User');
         $userid = session('userInfo');
-        $userInfo->where('id'==$userid)->setField('password',$password);
-        $this->ajaxReturn('msg',$password);
+        $data['id']=$userid;
+        $data['password']=$password;
+        $userInfo->save($data);
+        $this->success(I('post.password'));
 
     }
 
