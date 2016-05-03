@@ -124,3 +124,90 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
 
+[ 2016-05-03T14:43:22+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.3174s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0174s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0133s ]
+
+[ 2016-05-03T14:43:47+08:00 ] ::1 /Admin/Index/modifyPassword.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+SQL: UPDATE `think_user` SET `password`='96e79218965eb72c92a549dd5a330112' WHERE `id` = 1 [ RunTime:0.2695s ]
+
+[ 2016-05-03T14:45:07+08:00 ] ::1 /Admin/Index/modifyPassword.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0226s ]
+SQL: UPDATE `think_user` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 1 [ RunTime:0.0818s ]
+
+[ 2016-05-03T15:19:39+08:00 ] ::1 /Admin/Content/index
+ERR: 模板不存在:./myphp/Admin/View/Content/index.html
+
+[ 2016-05-03T16:14:01+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0594s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0448s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0530s ]
+
+[ 2016-05-03T16:15:17+08:00 ] ::1 /Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:1.1454s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0451s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.2839s ]
+
+[ 2016-05-03T17:46:52+08:00 ] ::1 /Admin/Content/add_artical.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `think_artical` [ RunTime:0.0079s ]
+ERR: 1364:Field 'simplecontent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_artical` (`title`,`keywords`,`author`) VALUES ('测试','123213','123')
+ERR: 1364:Field 'simplecontent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_artical` (`title`,`keywords`,`author`) VALUES ('测试','123213','123')
+
+[ 2016-05-03T17:48:09+08:00 ] ::1 /Admin/Content/add_artical.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_artical` [ RunTime:0.0051s ]
+ERR: 1364:Field 'simplecontent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_artical` (`title`,`keywords`,`author`) VALUES ('测试','123213','123')
+ERR: 1364:Field 'simplecontent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_artical` (`title`,`keywords`,`author`) VALUES ('测试','123213','123')
+
+[ 2016-05-03T17:51:23+08:00 ] ::1 /Admin/Content/add_artical.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003834s ]
+SQL: SHOW COLUMNS FROM `think_artical` [ RunTime:0.0189s ]
+ERR: 1364:Field 'simplecontent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_artical` (`title`,`keywords`,`author`,`content`) VALUES ('测试','123213','123','<p>132131231</p>')
+ERR: 1364:Field 'simplecontent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_artical` (`title`,`keywords`,`author`,`content`) VALUES ('测试','123213','123','<p>132131231</p>')
+
+[ 2016-05-03T17:51:50+08:00 ] ::1 /Admin/Content/add_artical.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `think_artical` [ RunTime:0.0068s ]
+SQL: INSERT INTO `think_artical` (`title`,`keywords`,`author`,`simplecontent`,`content`) VALUES ('测试','123213','123','1231231','<p>132131231</p>') [ RunTime:0.0170s ]
+

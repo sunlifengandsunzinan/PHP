@@ -13,3 +13,9 @@ ERR: 模板不存在:./myphp/Home/View/./myphp/Home/View/login.html.html
 [ 2016-05-03T10:49:24+08:00 ] 192.168.1.115 /
 ERR: 模板不存在:./myphp/Home/View/./myphp/Home/View/login.html.html
 
+[ 2016-05-03T15:26:03+08:00 ] ::1 /
+ERR: 模板不存在:./myphp/Home/View/./myphp/Home/View/login.html.html
+
+[ 2016-05-03T15:26:27+08:00 ] ::1 /Home/Index
+ERR: 模板不存在:./myphp/Home/View/./myphp/Home/View/login.html.html
+
