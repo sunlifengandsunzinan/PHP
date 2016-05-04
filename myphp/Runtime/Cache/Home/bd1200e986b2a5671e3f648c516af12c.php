@@ -50,7 +50,7 @@
   </h2>
   <div class="bloglist left">
     <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><h3><?php echo ($vo["title"]); ?></h3>
-      <figure><img src="/Public/images/001.png"></figure>
+      <figure><img src=<?php echo ($vo["imageurl"]); ?>></figure>
       <ul>
         <p><?php echo ($vo["simplecontent"]); ?></p>
         <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
@@ -65,24 +65,13 @@
       <p>最新<span>文章</span></p>
     </h3>
     <ul class="rank">
-      <li><a href="/" title="Column 三栏布局 个人网站模板" target="_blank">Column 三栏布局 个人网站模板</a></li>
-      <li><a href="/" title="with love for you 个人网站模板" target="_blank">with love for you 个人网站模板</a></li>
-      <li><a href="/" title="免费收录网站搜索引擎登录口大全" target="_blank">免费收录网站搜索引擎登录口大全</a></li>
-      <li><a href="/" title="做网站到底需要什么?" target="_blank">做网站到底需要什么?</a></li>
-      <li><a href="/" title="企业做网站具体流程步骤" target="_blank">企业做网站具体流程步骤</a></li>
-      <li><a href="/" title="建站流程篇――教你如何快速学会做网站" target="_blank">建站流程篇――教你如何快速学会做网站</a></li>
-      <li><a href="/" title="box-shadow 阴影右下脚折边效果" target="_blank">box-shadow 阴影右下脚折边效果</a></li>
-      <li><a href="/" title="打雷时室内、户外应该需要注意什么" target="_blank">打雷时室内、户外应该需要注意什么</a></li>
+      <?php if(is_array($lastlist)): $i = 0; $__LIST__ = $lastlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/" title=<?php echo ($vo["title"]); ?> target="_blank"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
     </ul>
     <h3 class="ph">
       <p>点击<span>排行</span></p>
     </h3>
     <ul class="paih">
-      <li><a href="/" title="Column 三栏布局 个人网站模板" target="_blank">Column 三栏布局 个人网站模板</a></li>
-      <li><a href="/" title="withlove for you 个人网站模板" target="_blank">with love for you 个人网站模板</a></li>
-      <li><a href="/" title="免费收录网站搜索引擎登录口大全" target="_blank">免费收录网站搜索引擎登录口大全</a></li>
-      <li><a href="/" title="做网站到底需要什么?" target="_blank">做网站到底需要什么?</a></li>
-      <li><a href="/" title="企业做网站具体流程步骤" target="_blank">企业做网站具体流程步骤</a></li>
+      <?php if(is_array($comboxlist)): $i = 0; $__LIST__ = $comboxlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/" title=<?php echo ($vo["title"]); ?> target="_blank"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
     </ul>
     <h3 class="links">
       <p>友情<span>链接</span></p>
@@ -103,7 +92,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     <a href="/" class="weixin"> </a></aside>
 </article>
 <footer>
-  <p>Design by slf <a href="/"></a></p>
+  <p>©2016  您是第<?php echo ($count); ?>人访问 辽ICP备16006129号  <a href="/"></a></p>
 </footer>
 <script src="/Public/js/silder.js"></script>
 </body>

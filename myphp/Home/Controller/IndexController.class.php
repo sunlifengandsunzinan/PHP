@@ -7,10 +7,14 @@ class IndexController extends Controller {
 
         N('read',1,true);
         $count = N('read');
-        $this->assign($count);
+        $this->assign('count',$count);
         $artical = D('Artical');
         $list = $artical->order(array('createtime'=>'desc'))->limit(5)->select();
+        $lastlist = $artical->order(array('createtime'=>'desc'))->limit(8)->select();
+        $comboxlist = $artical->order(array('createtime'=>'desc'))->limit(5)->select();
         $this->assign('list',$list);
+        $this->assign('lastlist',$lastlist);
+        $this->assign('comboxlist',$comboxlist);
         $this->display('./myphp/Home/View/index_index.html');
     }
 }
