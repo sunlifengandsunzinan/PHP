@@ -41,7 +41,6 @@
 
 <body>
 <form id="addForm"
-      action="modify_activity.do"
       method="post" enctype="multipart/form-data">
     <input type="hidden" id="index" name="index" value="" /> <br/>
     <div id="addDiv">
@@ -68,8 +67,11 @@
             来 源：<input type="text" name="origin" id="origin" style="width:200px;height:20px;margin:3px 0"
                        class="easyui-validatebox"  >&nbsp;&nbsp;
             <br />	<br />
-            上传缩略图：<input type="text" name="image" id="image" style="width:200px;height:20px;margin:3px 0"
-                       class="easyui-validatebox"  >&nbsp;&nbsp;
+            上传缩略图：
+            <input type="text" placeholder="" class="m-wrap large" id="txt2" name="image" />
+            <a href="JavaScript:void(0);"  onmousemove="fileToUpload.style.pixelLeft=event.x-60;fileToUpload.style.pixelTop=this.offsetTop;" onclick="fileToUpload.click()"> <input type='button' class='btn1' value='浏览图片' /></a>
+            <input type="file" id="fileToUpload" name="image" onchange="txt2.value=this.value" style="position:absolute;filter:alpha(opacity=0);-moz-opacity:0;display:none;" size="1" hidefocus />
+            &nbsp;&nbsp;
             <br />	<br />
 
             <table>
@@ -100,7 +102,7 @@
     editor.render("Vent");
 
     function saveActivity(){
-        $.post('{:U('Admin/Content/add_artical')}', $("#addForm").serialize(), function(data){
+   /*     $.post('{:U('Admin/Content/add_artical')}', $("#addForm").serialize(), function(data){
             console.log(data);
             if(!data.status){
                 $.messager.alert('提示信息', data.info, 'error');
@@ -109,8 +111,18 @@
                 //$.messager.progress({text:'加载中，请稍候...'});
                 window.location.href = data.url;
             }
-        },'json');
+        },'json');*/
+        $('#addForm').submit();
     }
+    $('#addForm').form({
+                url:'{:U('Admin/Content/add_artical')}',
+            onSubmit:function(){
+        return $(this).form('validate');
+    },
+    success:function(data){
+        alert(data);
+    }
+    });
 </script>
 </body>
 

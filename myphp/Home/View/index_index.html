@@ -32,7 +32,7 @@
 <div class="template">
   <div class="box">
     <h3>
-      <p><span>个人作品</span>展示 Templates</p>
+      <p><span>个人作品展示</span></p>
     </h3>
     <ul>
       <li><a href="/"  target="_blank"><img src="__PUBLIC__/images/01.jpg"></a><span>仿新浪博客风格・梅――古典个人博客模板</span></li>
@@ -53,10 +53,10 @@
       <h3>{$vo.title}</h3>
       <figure><img src="__PUBLIC__/images/001.png"></figure>
       <ul>
-        <p>{$vo.keywords}</p>
+        <p>{$vo.simplecontent}</p>
         <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
         </ul>
-      <p class="dateview"><span>2013-11-04</span><span>作者：{$vo.author}</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
+      <p class="dateview"><span>{$vo.createtime}</span><span>作者：{$vo.author}</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
     </volist>
 
   </div>

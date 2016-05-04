@@ -32,7 +32,7 @@
 <div class="template">
   <div class="box">
     <h3>
-      <p><span>个人作品</span>展示 Templates</p>
+      <p><span>个人作品展示</span></p>
     </h3>
     <ul>
       <li><a href="/"  target="_blank"><img src="/Public/images/01.jpg"></a><span>仿新浪博客风格・梅――古典个人博客模板</span></li>
@@ -52,10 +52,10 @@
     <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><h3><?php echo ($vo["title"]); ?></h3>
       <figure><img src="/Public/images/001.png"></figure>
       <ul>
-        <p><?php echo ($vo["keywords"]); ?></p>
+        <p><?php echo ($vo["simplecontent"]); ?></p>
         <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
         </ul>
-      <p class="dateview"><span>2013-11-04</span><span>作者：<?php echo ($vo["author"]); ?></span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p><?php endforeach; endif; else: echo "" ;endif; ?>
+      <p class="dateview"><span><?php echo ($vo["createtime"]); ?></span><span>作者：<?php echo ($vo["author"]); ?></span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p><?php endforeach; endif; else: echo "" ;endif; ?>
 
   </div>
   <aside class="right">

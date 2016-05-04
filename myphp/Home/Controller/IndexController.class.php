@@ -8,8 +8,8 @@ class IndexController extends Controller {
         N('read',1,true);
         $count = N('read');
         $this->assign($count);
-        $list = M('Artical');
-        $list->limit(0,5)->select();
+        $artical = D('Artical');
+        $list = $artical->order(array('createtime'=>'desc'))->limit(5)->select();
         $this->assign('list',$list);
         $this->display('./myphp/Home/View/index_index.html');
     }
